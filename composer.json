@@ -1,0 +1,31 @@
+{
+    "name": "dann95/pomelo-php",
+    "require": {
+        "psr/container": "^1.0",
+        "psr/http-message": "^1.0",
+        "vlucas/phpdotenv": "^2.4",
+        "league/flysystem": "^1.0",
+        "verbalexpressions/php-verbal-expressions": "dev-master"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.4"
+    },
+    "authors": [
+        {
+            "name": "Daniel Rubin",
+            "email": "danielrubin95@hotmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Pomelo\\": "Pomelo/",
+            "App\\": "app/"
+        },
+        "files": [
+            "Pomelo/Common/helpers.php",
+            "Pomelo/Http/helpers.php",
+            "Pomelo/Router/helpers.php"
+        ]
+    },
+    "minimum-stability": "dev"
+}
